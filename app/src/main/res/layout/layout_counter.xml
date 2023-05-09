@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/judul_aktivitas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/judul_aktivitas"
+                android:inputType="text"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:autofillHints=""
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btnKirim"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:backgroundTint="@color/cornflower_blue"
+                android:gravity="center"
+                android:text="@string/kirim" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/angka"
+            android:layout_width="match_parent"
+            android:layout_height="585dp"
+            android:background="@color/lamegreen"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/angka"
+            android:textColor="@color/black"
+            android:textSize="300sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.widget.Button
+                android:id="@+id/btnMin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/min"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/cornflower_blue"
+                android:layout_weight="2"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:paddingVertical="10dp"/>
+
+            <android.widget.Button
+                android:id="@+id/btnReset"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/neon_red"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="@string/reset"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <android.widget.Button
+                android:id="@+id/btnPlus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/plus"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/cornflower_blue"
+                android:layout_weight="2"
+                android:insetTop="0dp"
+                android:insetBottom="0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">App Latihan</string>
+    <string name="angka">0</string>
+    <string name="judul_aktivitas">Judul Aktivitas</string>
+    <string name="min">-</string>
+    <string name="plus">+</string>
+    <string name="reset">RESET</string>
+    <string name="lbl_namamakanan">Nama Makanan</string>
+    <string name="lbl_harga">Harga</string>
+    <string name="titik_dua">:</string>
+    <string name="simpan">SIMPAN</string>
+    <string name="kirim">KIRIM</string>
+    <string name="capture">CAPTURE</string>
+    <string name="noValue">Belum Menginputkan Judul</string>
+    <string name="counterlabel">Jumlah Counter</string>
+    <string name="nim">NIM</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="prodi">Prodi</string>
+    <string name="hobi">Hobi</string>
+    <string name="alamat">Alamat</string>
+    <string name="info_notifikasi">Aktifkan Notifikasi?</string>
+    <string name="mendaki">Mendaki</string>
+    <string name="memasak">Memasak</string>
+    <string name="berkebun">Berkebun</string>
+    <string name="bersepeda">Bersepeda</string>
+    <string name="lainnya">Lainnya</string>
+    <string name="submit">SUBMIT</string>
+    <string name="login">LOGIN</string>
+    <string name="kembali">KEMBALI</string>
+    <string name="username">Username</string>
+</resources>
